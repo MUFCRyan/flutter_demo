@@ -2,7 +2,6 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void randomWords() => new RandomWords();
 class RandomWords extends StatefulWidget{
   @override
   createState() => new RandomWordsState();
